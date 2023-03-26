@@ -1,7 +1,6 @@
 Library for AtMega4809
 
-Hello world send example:
-
+Hello world send data example:
 ```C
 
 #define F_CPU 3333333
