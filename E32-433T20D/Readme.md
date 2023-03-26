@@ -1,6 +1,14 @@
 Library for AtMega4809
 
-Hello world send data example:
+
+```
+function LoRa_settings - set and save settings(address, speed, power)
+address is 16bit number
+speed(bps) (index - speed) 0 - 0.3k, 1 - 1.2, 2 - 2.4k, 4 - 4.8k, 9 - 9.6k, 19 - 19.2k
+power(dBm) 33dBm, 30dBm, 27dBm, 24dBm
+```
+
+Hello world, send data example:
 ```C
 
 #define F_CPU 3333333
